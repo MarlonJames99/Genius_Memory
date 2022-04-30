@@ -1,0 +1,247 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:root {
+	--clr-normal-green:   #00A74A;
+	--clr-normal-red:     #9F0F17;
+	--clr-normal-yellow:  #CCA707;
+	--clr-normal-blue:    #094A8F;
+	
+	--clr-light-green:    #13ff7c;
+	--clr-light-red:      #ff4c4c;
+	--clr-light-yellow:   #fed93f;
+	--clr-light-blue:     #1c8cff;
+	
+	--clr-border:		  #333333;
+	--clr-center:  		  #ECE7EE;
+
+	--clr-counter-bg:	  #32050C;
+	--clr-counter-off:	  #430710;
+	--clr-counter-on:	  #DC0D29;
+	--clr-led-bg:         #32050C;
+	--clr-switch: 	      #3193DE;
+
+	--game-size: 48rem;
+	--game-border: 1.5rem solid var(--clr-border);
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png');
+	font-family: "bungee", verdana, sans-serif;
+}
+
+.container {
+	width: var(--game-size);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.game {
+	width: var(--game-size);
+	height: var(--game-size);
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 5rem;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+.game__title {
+    font-size: 4rem;
+	text-transform: uppercase;
+	margin: 0;
+	padding-left: 1.2rem;
+	padding-top: 4.7rem;
+}
+
+.reg {
+	font-family: verdana, sans-serif;
+	font-size: 1.8rem;
+	margin-left: -1rem;
+	vertical-align: top;
+}
+
+.game__pad {
+	width: calc(var(--game-size) / 2);
+	height: calc(var(--game-size) / 2);
+	border: var(--game-border);
+}
+
+.game__pad--tl {
+	background-color: var(--clr-normal-green);
+	border-top-left-radius: 100%;
+}
+
+.game__pad--tr {
+	background-color: var(--clr-normal-red);
+	border-top-right-radius: 100%;
+}
+
+.game__pad--bl {
+	background-color: var(--clr-normal-yellow);
+	border-bottom-left-radius: 100%;
+}
+
+.game__pad--br {
+	background-color: var(--clr-normal-blue);
+	border-bottom-right-radius: 100%;
+}
+
+.game__pad--tl.game__pad--active {
+	background-color: var(--clr-light-green);
+}
+
+.game__pad--tr.game__pad--active {
+	background-color: var(--clr-light-red);
+}
+
+.game__pad--bl.game__pad--active {
+	background-color: var(--clr-light-yellow);
+}
+
+.game__pad--br.game__pad--active {
+	background-color: var(--clr-light-blue);
+}
+
+.game__pad--btn {
+	cursor: pointer;
+}
+
+.game__options {
+    width: calc(var(--game-size) / 2);
+	height: calc(var(--game-size) / 2);
+	background-color: var(--clr-center);
+	position: absolute;
+	border: var(--game-border);
+	border-radius: 25rem;
+}
+
+.gui {
+    padding-left: 1.5rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+}
+
+.group {
+	margin-right: 2.2rem;
+}
+
+.group-large {
+	display: flex;
+	width: 10rem;
+	margin-left: 4.5rem;
+}
+
+.gui__label {
+	font-family: "Arima Madurai", cursive;
+	font-weight: bold;
+	font-size: 0.75rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.gui__label--switch {
+	margin: 0;
+	padding-top: 0.75rem;
+}
+
+.gui__btn {
+	width: 2.5rem;
+	height: 2.5rem;
+	margin-left: 0.2rem;
+	border-radius: 5rem;
+	box-shadow: 0 0.2rem 0.3rem #222;
+	border: 0.4rem solid #444;
+	cursor: pointer;
+}
+
+.gui__btn:active {
+	transform: translate(0, 0.3rem);
+	box-shadow: none;
+}
+
+.gui__btn--start {
+	background-color: red;
+}
+
+.gui__btn--strict {
+	background-color: yellow;
+}
+
+.gui__btn-switch {
+	background-color: #222;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	width: 5rem;
+	height: 2.3rem;
+	border-radius: 0.3rem;
+	cursor: pointer;
+}
+
+.gui__btn-switch::before {
+	content: "";
+	background-color: var(--clr-switch);
+	display: block;
+	position: relative;
+	left: 2.5rem;
+	width: 2.2rem;
+	height: 1.9rem;
+	border-radius: 0.3rem;
+	border: 0.2rem solid #333;
+}
+
+.gui__btn-switch--on::before {
+	left: 0;
+}
+
+.gui__counter {
+	background-color: var(--clr-counter-bg);
+	color: var(--clr-counter-off);
+	font-family: "Iceland", cursive;
+	font-weight: bold;
+	font-size: 3rem;
+	text-align: right;
+	width: 5.5rem;
+	border: 0.3rem solid #000;
+	border-radius: 1rem;
+	padding-right: 0.2rem;
+	padding-left: 0.3rem;
+}
+
+.gui__counter--on {
+	color: var(--clr-counter-on);
+}
+
+.gui__led {
+	background-color: var(--clr-led-bg);
+	margin-left: 1rem;
+	margin-bottom: 0.5rem;
+	width: 0.8rem;
+	height: 0.8rem;
+	border: 0.2rem solid #222;
+	border-radius: 2rem;
+}
+
+.gui__led--active {
+	background-color: red;
+}
+
+footer {
+	text-align: center;
+	margin-top: 5rem;
+	font-size: 1rem;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
