@@ -19,7 +19,7 @@ Genius was a very popular toy in the 1980s. Distributed by Estrela, the toy soug
 ## Other aspects:
 In the development of the project, special attention was given to the correct application of semantics in its HTML structure.
 In addition, I also developed media queries to adapt the application responsively to different screens and devices.<br>
-I've used BEM methodology in this project.
+I've used BEM (Block element modifier) methodology in this project.
 
 ## Next steps:
 > The next step that I have planned to implement in this application are improvements related to accessibility, as it is very important that it can be used properly by everyone! <br><br>
