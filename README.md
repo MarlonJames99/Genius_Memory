@@ -1,6 +1,7 @@
 # Genius Memory
 ## Preview:
 ![PreviewGenius](https://user-images.githubusercontent.com/97669160/166126261-2e341cb8-cf13-47fe-b8e4-a62e9dde8317.PNG)
+![PreviewGenius2](https://user-images.githubusercontent.com/97669160/166133403-60220d66-3570-4d56-b4ab-5d0fd2035165.PNG)
 
 ## Project:
 This is a classic Genius memory game to play alone or with your friends!
