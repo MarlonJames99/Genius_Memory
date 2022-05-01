@@ -9,21 +9,17 @@
 	--clr-normal-red:     #9F0F17;
 	--clr-normal-yellow:  #CCA707;
 	--clr-normal-blue:    #094A8F;
-	
 	--clr-light-green:    #13ff7c;
 	--clr-light-red:      #ff4c4c;
 	--clr-light-yellow:   #fed93f;
 	--clr-light-blue:     #1c8cff;
-	
 	--clr-border:		  #333333;
 	--clr-center:  		  #ECE7EE;
-
 	--clr-counter-bg:	  #32050C;
 	--clr-counter-off:	  #430710;
 	--clr-counter-on:	  #DC0D29;
 	--clr-led-bg:         #32050C;
 	--clr-switch: 	      #3193DE;
-
 	--game-size: 48rem;
 	--game-border: 1.5rem solid var(--clr-border);
 }
@@ -244,4 +240,10 @@ footer {
 a {
 	color: black;
 	text-decoration: none;
+}
+
+@media (max-width: 600px) {
+	html {
+		font-size: 45%;
+	}
 }
