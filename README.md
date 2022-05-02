@@ -1,6 +1,7 @@
 # Genius Memory
 ## Preview:
 ![PreviewGenius](https://user-images.githubusercontent.com/97669160/166126261-2e341cb8-cf13-47fe-b8e4-a62e9dde8317.PNG)
+![PreviewGenius2](https://user-images.githubusercontent.com/97669160/166133403-60220d66-3570-4d56-b4ab-5d0fd2035165.PNG)
 
 ## Project:
 This is a classic Genius memory game to play alone or with your friends!
@@ -18,7 +19,7 @@ Genius was a very popular toy in the 1980s. Distributed by Estrela, the toy soug
 ## Other aspects:
 In the development of the project, special attention was given to the correct application of semantics in its HTML structure.
 In addition, I also developed media queries to adapt the application responsively to different screens and devices.<br>
-I've used BEM methodology in this project.
+I've used BEM (Block element modifier) methodology in this project.
 
 ## Next steps:
 > The next step that I have planned to implement in this application are improvements related to accessibility, as it is very important that it can be used properly by everyone! <br><br>
