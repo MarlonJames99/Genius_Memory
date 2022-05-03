@@ -5,7 +5,6 @@
 
 ## Project:
 This is a classic Genius memory game to play alone or with your friends!
-The game is not online so you and your friend would need to be playing on the same computer.<br>
 
 Genius was a very popular toy in the 1980s. Distributed by Estrela, the toy sought to encourage the memorization of colors and sounds. With a shape similar to a UFO, it had colored buttons that emitted harmonic sounds and lit up in sequence. It was up to the players to repeat the process without making mistakes.
 
