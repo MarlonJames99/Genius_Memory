@@ -44,7 +44,7 @@ body {
 	height: var(--game-size);
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 5rem;
+	margin-top: 8rem;
 	position: relative;
 	justify-content: center;
 	align-items: center;
@@ -234,7 +234,7 @@ body {
 footer {
 	text-align: center;
 	margin-top: 5rem;
-	font-size: 1rem;
+	font-size: 1.1rem;
 }
 
 a {
