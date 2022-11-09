@@ -8,7 +8,7 @@ This is a classic Genius memory game to play alone or with your friends!
 
 Genius was a very popular toy in the 1980s. Distributed by Estrela, the toy sought to encourage the memorization of colors and sounds. With a shape similar to a UFO, it had colored buttons that emitted harmonic sounds and lit up in sequence. It was up to the players to repeat the process without making mistakes.
 
-### Game link: https://marlonjames99.github.io/Genius_Memory/
+### Game link: https://genius-memory-marlonjames.vercel.app
 
 ## Tecnologies:
 <div style="display: inline_block">
